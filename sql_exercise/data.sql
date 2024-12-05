@@ -1,0 +1,82 @@
+INSERT INTO
+    Students
+VALUES
+    (1, "Alice Johnson", 18, "Female"),
+    (2, "Bob Smith", 17, "Male"),
+    (3, "Charlie Brown", 16, "Male"),
+    (4, "Daisy Miller", 19, "Female"),
+    (5, "Ethan Carter", 18, "Male"),
+    (6, "Fiona Green", 17, "Female"),
+    (7, "Gabriel White", 18, "Male"),
+    (8, "Hannah Black", 19, "Female"),
+    (9, "Isaac Gray", 17, "Male"),
+    (10, "Jasmine Brown", 18, "Female"),
+    (11, "Kevin Lee", 17, "Male"),
+    (12, "Lily White", 19, "Female"),
+    (13, "Michael Brown", 18, "Male"),
+    (14, "Nora Gray", 17, "Female"),
+    (15, "Oliver Green", 18, "Male"),
+    (16, "Paige Black", 19, "Female"),
+    (17, "Quentin White", 17, "Male"),
+    (18, "Riley Brown", 18, "Female"),
+    (19, "Samuel Gray", 19, "Male"),
+    (20, "Taylor Green", 17, "Female"),
+    (21, "Ulysses Black", 18, "Male"),
+    (22, "Vanessa White", 19, "Female"),
+    (23, "William Brown", 17, "Male"),
+    (24, "Xanthe Gray", 18, "Female"),
+    (25, "Yolanda Green", 19, "Male"),
+    (26, "Zachary Black", 17, "Female"),
+    (27, "Avery White", 18, "Male"),
+    (28, "Bella Brown", 19, "Female"),
+    (29, "Caleb Gray", 17, "Male"),
+    (30, "Danielle Green", 18, "Female");
+
+INSERT INTO
+    Courses 
+VALUES
+    (1, "Introduction to Computer Science", 3, 10),
+    (2, "Calculus I", 4, 40),
+    (3, "Linear Algebra", 3, 35),
+    (4, "Physics I", 4, 45),
+    (5, "Chemistry I", 3, 30),
+    (6, "Biology I", 3, 35),
+    (7, "English Composition I", 3, 30),
+    (8, "History of the United States", 3, 35),
+    (9, "Introduction to Psychology", 3, 30),
+    (10, "Sociology 101", 3, 35);
+
+INSERT INTO
+    Enrollments (student_id, course_id)
+VALUES
+    (1, 1),
+    (2, 1),
+    (3, 1),
+    (4, 1),
+    (5, 1),
+    (6, 1),
+    (7, 1),
+    (8, 1),
+    (9, 1),
+    (10, 1),
+    (11, 2),
+    (12, 3),
+    (13, 4),
+    (14, 5),
+    (15, 6),
+    (16, 7),
+    (17, 8),
+    (18, 9),
+    (19, 10),
+    (20, 2),
+    (21, 3),
+    (22, 4),
+    (23, 5),
+    (24, 6),
+    (25, 7),
+    (26, 8),
+    (27, 9),
+    (28, 10),
+    (29, 2),
+    (30, 3);
+
